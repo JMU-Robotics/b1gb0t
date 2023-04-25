@@ -1,0 +1,35 @@
+[0.346s] Invoking command in '/home/roboclub/dev_ws/src/jmu_bigbot': PYTHONPATH=/home/roboclub/dev_ws/build/jmu_bigbot/prefix_override:/home/roboclub/dev_ws/install/jmu_bigbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jmu_bigbot build --build-base /home/roboclub/dev_ws/build/jmu_bigbot/build install --record /home/roboclub/dev_ws/build/jmu_bigbot/install.log --single-version-externally-managed
+[0.478s] running egg_info
+[0.478s] creating ../../build/jmu_bigbot/jmu_bigbot.egg-info
+[0.478s] writing ../../build/jmu_bigbot/jmu_bigbot.egg-info/PKG-INFO
+[0.478s] writing dependency_links to ../../build/jmu_bigbot/jmu_bigbot.egg-info/dependency_links.txt
+[0.479s] writing entry points to ../../build/jmu_bigbot/jmu_bigbot.egg-info/entry_points.txt
+[0.479s] writing requirements to ../../build/jmu_bigbot/jmu_bigbot.egg-info/requires.txt
+[0.479s] writing top-level names to ../../build/jmu_bigbot/jmu_bigbot.egg-info/top_level.txt
+[0.479s] writing manifest file '../../build/jmu_bigbot/jmu_bigbot.egg-info/SOURCES.txt'
+[0.480s] reading manifest file '../../build/jmu_bigbot/jmu_bigbot.egg-info/SOURCES.txt'
+[0.480s] writing manifest file '../../build/jmu_bigbot/jmu_bigbot.egg-info/SOURCES.txt'
+[0.480s] running build
+[0.480s] running build_py
+[0.480s] creating /home/roboclub/dev_ws/build/jmu_bigbot/build
+[0.480s] creating /home/roboclub/dev_ws/build/jmu_bigbot/build/lib
+[0.480s] creating /home/roboclub/dev_ws/build/jmu_bigbot/build/lib/jmu_bigbot
+[0.481s] copying jmu_bigbot/__init__.py -> /home/roboclub/dev_ws/build/jmu_bigbot/build/lib/jmu_bigbot
+[0.481s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.481s]   warnings.warn(
+[0.481s] running install
+[0.481s] running install_lib
+[0.481s] creating /home/roboclub/dev_ws/install/jmu_bigbot/lib/python3.10/site-packages/jmu_bigbot
+[0.481s] copying /home/roboclub/dev_ws/build/jmu_bigbot/build/lib/jmu_bigbot/__init__.py -> /home/roboclub/dev_ws/install/jmu_bigbot/lib/python3.10/site-packages/jmu_bigbot
+[0.481s] byte-compiling /home/roboclub/dev_ws/install/jmu_bigbot/lib/python3.10/site-packages/jmu_bigbot/__init__.py to __init__.cpython-310.pyc
+[0.481s] running install_data
+[0.482s] creating /home/roboclub/dev_ws/install/jmu_bigbot/share/ament_index
+[0.482s] creating /home/roboclub/dev_ws/install/jmu_bigbot/share/ament_index/resource_index
+[0.482s] creating /home/roboclub/dev_ws/install/jmu_bigbot/share/ament_index/resource_index/packages
+[0.482s] copying resource/jmu_bigbot -> /home/roboclub/dev_ws/install/jmu_bigbot/share/ament_index/resource_index/packages
+[0.482s] copying package.xml -> /home/roboclub/dev_ws/install/jmu_bigbot/share/jmu_bigbot
+[0.482s] running install_egg_info
+[0.483s] Copying ../../build/jmu_bigbot/jmu_bigbot.egg-info to /home/roboclub/dev_ws/install/jmu_bigbot/lib/python3.10/site-packages/jmu_bigbot-0.0.0-py3.10.egg-info
+[0.483s] running install_scripts
+[0.495s] writing list of installed files to '/home/roboclub/dev_ws/build/jmu_bigbot/install.log'
+[0.509s] Invoked command in '/home/roboclub/dev_ws/src/jmu_bigbot' returned '0': PYTHONPATH=/home/roboclub/dev_ws/build/jmu_bigbot/prefix_override:/home/roboclub/dev_ws/install/jmu_bigbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jmu_bigbot build --build-base /home/roboclub/dev_ws/build/jmu_bigbot/build install --record /home/roboclub/dev_ws/build/jmu_bigbot/install.log --single-version-externally-managed

@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/jmu_bigbot/jmu_bigbot.egg-info
+writing ../../build/jmu_bigbot/jmu_bigbot.egg-info/PKG-INFO
+writing dependency_links to ../../build/jmu_bigbot/jmu_bigbot.egg-info/dependency_links.txt
+writing entry points to ../../build/jmu_bigbot/jmu_bigbot.egg-info/entry_points.txt
+writing requirements to ../../build/jmu_bigbot/jmu_bigbot.egg-info/requires.txt
+writing top-level names to ../../build/jmu_bigbot/jmu_bigbot.egg-info/top_level.txt
+writing manifest file '../../build/jmu_bigbot/jmu_bigbot.egg-info/SOURCES.txt'
+reading manifest file '../../build/jmu_bigbot/jmu_bigbot.egg-info/SOURCES.txt'
+writing manifest file '../../build/jmu_bigbot/jmu_bigbot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/roboclub/dev_ws/build/jmu_bigbot/build
+creating /home/roboclub/dev_ws/build/jmu_bigbot/build/lib
+creating /home/roboclub/dev_ws/build/jmu_bigbot/build/lib/jmu_bigbot
+copying jmu_bigbot/__init__.py -> /home/roboclub/dev_ws/build/jmu_bigbot/build/lib/jmu_bigbot
+running install
+running install_lib
+creating /home/roboclub/dev_ws/install/jmu_bigbot/lib/python3.10/site-packages/jmu_bigbot
+copying /home/roboclub/dev_ws/build/jmu_bigbot/build/lib/jmu_bigbot/__init__.py -> /home/roboclub/dev_ws/install/jmu_bigbot/lib/python3.10/site-packages/jmu_bigbot
+byte-compiling /home/roboclub/dev_ws/install/jmu_bigbot/lib/python3.10/site-packages/jmu_bigbot/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/roboclub/dev_ws/install/jmu_bigbot/share/ament_index
+creating /home/roboclub/dev_ws/install/jmu_bigbot/share/ament_index/resource_index
+creating /home/roboclub/dev_ws/install/jmu_bigbot/share/ament_index/resource_index/packages
+copying resource/jmu_bigbot -> /home/roboclub/dev_ws/install/jmu_bigbot/share/ament_index/resource_index/packages
+copying package.xml -> /home/roboclub/dev_ws/install/jmu_bigbot/share/jmu_bigbot
+running install_egg_info
+Copying ../../build/jmu_bigbot/jmu_bigbot.egg-info to /home/roboclub/dev_ws/install/jmu_bigbot/lib/python3.10/site-packages/jmu_bigbot-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/roboclub/dev_ws/build/jmu_bigbot/install.log'

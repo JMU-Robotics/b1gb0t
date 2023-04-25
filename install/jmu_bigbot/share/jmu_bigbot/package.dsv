@@ -1,0 +1,6 @@
+source;share/jmu_bigbot/hook/pythonpath.ps1
+source;share/jmu_bigbot/hook/pythonpath.dsv
+source;share/jmu_bigbot/hook/pythonpath.sh
+source;share/jmu_bigbot/hook/ament_prefix_path.ps1
+source;share/jmu_bigbot/hook/ament_prefix_path.dsv
+source;share/jmu_bigbot/hook/ament_prefix_path.sh

@@ -1,0 +1,264 @@
+[0.000000] (-) TimerEvent: {}
+[0.000453] (urg_node2) JobQueued: {'identifier': 'urg_node2', 'dependencies': OrderedDict()}
+[0.000478] (urg_node2) JobStarted: {'identifier': 'urg_node2'}
+[0.007914] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'cmake'}
+[0.008247] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '/home/roboclub/dev_ws/src/urg_node2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/roboclub/dev_ws/install/urg_node2'], 'cwd': '/home/roboclub/dev_ws/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'roboclub'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/roboclub'), ('OLDPWD', '/home/roboclub/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '23280'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/roboclub/rover_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'roboclub'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'roboclub'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/roboclub-Latitude-5521:@/tmp/.ICE-unix/2117,unix/roboclub-Latitude-5521:/tmp/.ICE-unix/2117'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/032bec5c_3366_4c8e_a494_afbf8f8213e8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/roboclub/rover_workspace/install/sllidar_ros2:/home/roboclub/rover_workspace/install/roverrobotics_input_manager:/home/roboclub/rover_workspace/install/roverrobotics_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/roboclub/dev_ws/build/urg_node2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/roboclub/rover_workspace/install/sllidar_ros2:/home/roboclub/rover_workspace/install/roverrobotics_input_manager:/home/roboclub/rover_workspace/install/roverrobotics_driver:/opt/ros/humble')]), 'shell': False}
+[0.055875] (urg_node2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.099100] (-) TimerEvent: {}
+[0.113348] (urg_node2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.119557] (urg_node2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.182798] (urg_node2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.188701] (urg_node2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.188845] (urg_node2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.189283] (urg_node2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.192421] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199282] (-) TimerEvent: {}
+[0.273584] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.279697] (urg_node2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.280005] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.280231] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.281905] (urg_node2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299445] (-) TimerEvent: {}
+[0.399908] (-) TimerEvent: {}
+[0.405568] (urg_node2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.447635] (urg_node2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.463579] (urg_node2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.493546] (urg_node2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.496673] (urg_node2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.500063] (-) TimerEvent: {}
+[0.502292] (urg_node2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.511535] (urg_node2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.524451] (urg_node2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.571060] (urg_node2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.572744] (urg_node2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600235] (-) TimerEvent: {}
+[0.644510] (urg_node2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.662990] (urg_node2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.695597] (urg_node2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700404] (-) TimerEvent: {}
+[0.701921] (urg_node2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.770600] (urg_node2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.771042] (urg_node2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800571] (-) TimerEvent: {}
+[0.847315] (urg_node2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.848057] (urg_node2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900734] (-) TimerEvent: {}
+[0.962166] (urg_node2) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.3 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.000922] (-) TimerEvent: {}
+[1.006654] (urg_node2) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.3 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.036797] (urg_node2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.101103] (-) TimerEvent: {}
+[1.124561] (urg_node2) StdoutLine: {'line': b'-- Found diagnostic_updater: 3.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[1.173355] (urg_node2) StdoutLine: {'line': b'-- Found laser_proc: 1.0.2 (/opt/ros/humble/share/laser_proc/cmake)\n'}
+[1.201275] (-) TimerEvent: {}
+[1.219540] (urg_node2) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.220885] (urg_node2) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.301465] (-) TimerEvent: {}
+[1.311378] (urg_node2) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.332028] (urg_node2) StdoutLine: {'line': b'-- Generating done\n'}
+[1.333467] (urg_node2) StdoutLine: {'line': b'-- Build files have been written to: /home/roboclub/dev_ws/build/urg_node2\n'}
+[1.341984] (urg_node2) CommandEnded: {'returncode': 0}
+[1.344528] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'build'}
+[1.344566] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/roboclub/dev_ws/build/urg_node2', '--', '-j16', '-l16'], 'cwd': '/home/roboclub/dev_ws/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'roboclub'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/roboclub'), ('OLDPWD', '/home/roboclub/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '23280'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/roboclub/rover_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'roboclub'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'roboclub'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/roboclub-Latitude-5521:@/tmp/.ICE-unix/2117,unix/roboclub-Latitude-5521:/tmp/.ICE-unix/2117'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/032bec5c_3366_4c8e_a494_afbf8f8213e8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/roboclub/rover_workspace/install/sllidar_ros2:/home/roboclub/rover_workspace/install/roverrobotics_input_manager:/home/roboclub/rover_workspace/install/roverrobotics_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/roboclub/dev_ws/build/urg_node2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/roboclub/rover_workspace/install/sllidar_ros2:/home/roboclub/rover_workspace/install/roverrobotics_input_manager:/home/roboclub/rover_workspace/install/roverrobotics_driver:/opt/ros/humble')]), 'shell': False}
+[1.384190] (urg_node2) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[1.384513] (urg_node2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/urg_node2_node.dir/rclcpp_components/node_main_urg_node2_node.cpp.o\x1b[0m\n'}
+[1.384632] (urg_node2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o\x1b[0m\n'}
+[1.384732] (urg_node2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o\x1b[0m\n'}
+[1.385348] (urg_node2) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o\x1b[0m\n'}
+[1.385571] (urg_node2) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o\x1b[0m\n'}
+[1.385793] (urg_node2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[1.385971] (urg_node2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o\x1b[0m\n'}
+[1.387128] (urg_node2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.o\x1b[0m\n'}
+[1.387405] (urg_node2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.o\x1b[0m\n'}
+[1.388009] (urg_node2) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o\x1b[0m\n'}
+[1.401593] (-) TimerEvent: {}
+[1.420369] (urg_node2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/roboclub/dev_ws/src/urg_node2/urg_library/current/src/urg_utils.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kurg_delay\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.420688] (urg_node2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/roboclub/dev_ws/src/urg_node2/urg_library/current/src/urg_utils.c:224:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[Kusleep\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kurg_sleep\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration\x07-Wimplicit-function-declaration\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.420836] (urg_node2) StderrLine: {'line': b'  224 |     \x1b[01;35m\x1b[Kusleep\x1b[m\x1b[K(1000 * delay_msec);\n'}
+[1.420966] (urg_node2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.421079] (urg_node2) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kurg_sleep\x1b[m\x1b[K\n'}
+[1.424366] (urg_node2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/roboclub/dev_ws/src/urg_node2/urg_library/current/src/urg_sensor.c:1349:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.424564] (urg_node2) StderrLine: {'line': b' 1349 | static \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K int receive_II_command_response(urg_t *urg,\n'}
+[1.424671] (urg_node2) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.498652] (urg_node2) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library liburg_c.so\x1b[0m\n'}
+[1.501750] (-) TimerEvent: {}
+[1.533419] (urg_node2) StdoutLine: {'line': b'[ 60%] Built target urg_c\n'}
+[1.552265] (urg_node2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/urg_node2.dir/src/urg_node2.cpp.o\x1b[0m\n'}
+[1.601898] (-) TimerEvent: {}
+[1.702310] (-) TimerEvent: {}
+[1.802761] (-) TimerEvent: {}
+[1.903312] (-) TimerEvent: {}
+[1.967671] (urg_node2) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[1.995320] (urg_node2) StdoutLine: {'line': b'[ 70%] Built target gtest_main\n'}
+[2.003465] (-) TimerEvent: {}
+[2.103935] (-) TimerEvent: {}
+[2.204453] (-) TimerEvent: {}
+[2.304924] (-) TimerEvent: {}
+[2.405297] (-) TimerEvent: {}
+[2.505706] (-) TimerEvent: {}
+[2.606113] (-) TimerEvent: {}
+[2.706579] (-) TimerEvent: {}
+[2.807146] (-) TimerEvent: {}
+[2.907659] (-) TimerEvent: {}
+[3.008172] (-) TimerEvent: {}
+[3.108701] (-) TimerEvent: {}
+[3.209224] (-) TimerEvent: {}
+[3.309691] (-) TimerEvent: {}
+[3.410173] (-) TimerEvent: {}
+[3.510680] (-) TimerEvent: {}
+[3.611149] (-) TimerEvent: {}
+[3.711677] (-) TimerEvent: {}
+[3.812167] (-) TimerEvent: {}
+[3.912652] (-) TimerEvent: {}
+[3.974360] (urg_node2) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[4.012781] (-) TimerEvent: {}
+[4.018775] (urg_node2) StdoutLine: {'line': b'[ 75%] Built target gtest\n'}
+[4.035707] (urg_node2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o\x1b[0m\n'}
+[4.036132] (urg_node2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o\x1b[0m\n'}
+[4.112918] (-) TimerEvent: {}
+[4.134660] (urg_node2) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable urg_node2_node\x1b[0m\n'}
+[4.213081] (-) TimerEvent: {}
+[4.246809] (urg_node2) StdoutLine: {'line': b'[ 90%] Built target urg_node2_node\n'}
+[4.313214] (-) TimerEvent: {}
+[4.413605] (-) TimerEvent: {}
+[4.513966] (-) TimerEvent: {}
+[4.614332] (-) TimerEvent: {}
+[4.714672] (-) TimerEvent: {}
+[4.815043] (-) TimerEvent: {}
+[4.915419] (-) TimerEvent: {}
+[5.015807] (-) TimerEvent: {}
+[5.116211] (-) TimerEvent: {}
+[5.216562] (-) TimerEvent: {}
+[5.316941] (-) TimerEvent: {}
+[5.417342] (-) TimerEvent: {}
+[5.517714] (-) TimerEvent: {}
+[5.618102] (-) TimerEvent: {}
+[5.718470] (-) TimerEvent: {}
+[5.818835] (-) TimerEvent: {}
+[5.919178] (-) TimerEvent: {}
+[6.019533] (-) TimerEvent: {}
+[6.119898] (-) TimerEvent: {}
+[6.220256] (-) TimerEvent: {}
+[6.320637] (-) TimerEvent: {}
+[6.421025] (-) TimerEvent: {}
+[6.521386] (-) TimerEvent: {}
+[6.621748] (-) TimerEvent: {}
+[6.722134] (-) TimerEvent: {}
+[6.822570] (-) TimerEvent: {}
+[6.922946] (-) TimerEvent: {}
+[7.023326] (-) TimerEvent: {}
+[7.123700] (-) TimerEvent: {}
+[7.163183] (urg_node2) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX shared library liburg_node2.so\x1b[0m\n'}
+[7.223824] (-) TimerEvent: {}
+[7.324197] (-) TimerEvent: {}
+[7.416597] (urg_node2) StdoutLine: {'line': b'[ 95%] Built target urg_node2\n'}
+[7.424283] (-) TimerEvent: {}
+[7.524598] (-) TimerEvent: {}
+[7.624967] (-) TimerEvent: {}
+[7.725314] (-) TimerEvent: {}
+[7.825673] (-) TimerEvent: {}
+[7.926023] (-) TimerEvent: {}
+[8.026348] (-) TimerEvent: {}
+[8.126707] (-) TimerEvent: {}
+[8.227028] (-) TimerEvent: {}
+[8.327377] (-) TimerEvent: {}
+[8.427724] (-) TimerEvent: {}
+[8.528082] (-) TimerEvent: {}
+[8.628421] (-) TimerEvent: {}
+[8.728766] (-) TimerEvent: {}
+[8.829119] (-) TimerEvent: {}
+[8.929455] (-) TimerEvent: {}
+[9.029805] (-) TimerEvent: {}
+[9.130149] (-) TimerEvent: {}
+[9.230519] (-) TimerEvent: {}
+[9.330869] (-) TimerEvent: {}
+[9.431200] (-) TimerEvent: {}
+[9.531533] (-) TimerEvent: {}
+[9.631864] (-) TimerEvent: {}
+[9.732188] (-) TimerEvent: {}
+[9.832494] (-) TimerEvent: {}
+[9.932801] (-) TimerEvent: {}
+[10.033143] (-) TimerEvent: {}
+[10.133484] (-) TimerEvent: {}
+[10.233791] (-) TimerEvent: {}
+[10.334106] (-) TimerEvent: {}
+[10.434417] (-) TimerEvent: {}
+[10.534725] (-) TimerEvent: {}
+[10.635030] (-) TimerEvent: {}
+[10.735323] (-) TimerEvent: {}
+[10.835591] (-) TimerEvent: {}
+[10.935853] (-) TimerEvent: {}
+[11.036106] (-) TimerEvent: {}
+[11.136397] (-) TimerEvent: {}
+[11.236667] (-) TimerEvent: {}
+[11.336949] (-) TimerEvent: {}
+[11.437250] (-) TimerEvent: {}
+[11.537561] (-) TimerEvent: {}
+[11.637884] (-) TimerEvent: {}
+[11.738188] (-) TimerEvent: {}
+[11.838484] (-) TimerEvent: {}
+[11.938773] (-) TimerEvent: {}
+[12.039069] (-) TimerEvent: {}
+[12.139358] (-) TimerEvent: {}
+[12.239655] (-) TimerEvent: {}
+[12.339986] (-) TimerEvent: {}
+[12.440306] (-) TimerEvent: {}
+[12.540600] (-) TimerEvent: {}
+[12.640934] (-) TimerEvent: {}
+[12.741255] (-) TimerEvent: {}
+[12.841537] (-) TimerEvent: {}
+[12.941820] (-) TimerEvent: {}
+[13.042087] (-) TimerEvent: {}
+[13.142367] (-) TimerEvent: {}
+[13.242649] (-) TimerEvent: {}
+[13.343080] (-) TimerEvent: {}
+[13.443574] (-) TimerEvent: {}
+[13.544071] (-) TimerEvent: {}
+[13.644562] (-) TimerEvent: {}
+[13.745139] (-) TimerEvent: {}
+[13.845681] (-) TimerEvent: {}
+[13.946200] (-) TimerEvent: {}
+[13.956251] (urg_node2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable urg_node2_test\x1b[0m\n'}
+[14.046388] (-) TimerEvent: {}
+[14.146848] (-) TimerEvent: {}
+[14.247271] (-) TimerEvent: {}
+[14.347762] (-) TimerEvent: {}
+[14.448197] (-) TimerEvent: {}
+[14.540508] (urg_node2) StdoutLine: {'line': b'[100%] Built target urg_node2_test\n'}
+[14.548372] (urg_node2) CommandEnded: {'returncode': 0}
+[14.549767] (-) TimerEvent: {}
+[14.609118] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'install'}
+[14.616644] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/roboclub/dev_ws/build/urg_node2'], 'cwd': '/home/roboclub/dev_ws/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'roboclub'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/roboclub'), ('OLDPWD', '/home/roboclub/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '23280'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/roboclub/rover_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'roboclub'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'roboclub'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/roboclub-Latitude-5521:@/tmp/.ICE-unix/2117,unix/roboclub-Latitude-5521:/tmp/.ICE-unix/2117'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/032bec5c_3366_4c8e_a494_afbf8f8213e8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/roboclub/rover_workspace/install/sllidar_ros2:/home/roboclub/rover_workspace/install/roverrobotics_input_manager:/home/roboclub/rover_workspace/install/roverrobotics_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/roboclub/dev_ws/build/urg_node2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/roboclub/rover_workspace/install/sllidar_ros2:/home/roboclub/rover_workspace/install/roverrobotics_input_manager:/home/roboclub/rover_workspace/install/roverrobotics_driver:/opt/ros/humble')]), 'shell': False}
+[14.624220] (urg_node2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.624544] (urg_node2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.624744] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/lib/urg_node2/urg_node2_node\n'}
+[14.632868] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/lib/liburg_node2.so\n'}
+[14.641168] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/lib/liburg_c.so\n'}
+[14.649937] (-) TimerEvent: {}
+[14.651649] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/urg_node2/launch/urg_node2.launch.py\n'}
+[14.661255] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/urg_node2/launch/urg_node2_2lidar.launch.py\n'}
+[14.670121] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/urg_node2/launch/urg_node2_component.launch.py\n'}
+[14.678996] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/urg_node2/config/params_ether.yaml\n'}
+[14.686952] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/urg_node2/config/params_ether_2nd.yaml\n'}
+[14.695242] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/urg_node2/config/params_serial.yaml\n'}
+[14.701948] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/ament_index/resource_index/package_run_dependencies/urg_node2\n'}
+[14.709499] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/ament_index/resource_index/parent_prefix_path/urg_node2\n'}
+[14.714613] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/urg_node2/environment/ament_prefix_path.sh\n'}
+[14.721852] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/urg_node2/environment/ament_prefix_path.dsv\n'}
+[14.730440] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/urg_node2/environment/path.sh\n'}
+[14.737146] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/urg_node2/environment/path.dsv\n'}
+[14.745205] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/urg_node2/local_setup.bash\n'}
+[14.750097] (-) TimerEvent: {}
+[14.750976] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/urg_node2/local_setup.sh\n'}
+[14.756434] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/urg_node2/local_setup.zsh\n'}
+[14.764747] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/urg_node2/local_setup.dsv\n'}
+[14.774822] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/urg_node2/package.dsv\n'}
+[14.784480] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/ament_index/resource_index/packages/urg_node2\n'}
+[14.793935] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/ament_index/resource_index/rclcpp_components/urg_node2\n'}
+[14.803647] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/urg_node2/cmake/urg_node2Config.cmake\n'}
+[14.812229] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/urg_node2/cmake/urg_node2Config-version.cmake\n'}
+[14.821581] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/roboclub/dev_ws/install/urg_node2/share/urg_node2/package.xml\n'}
+[14.831995] (urg_node2) CommandEnded: {'returncode': 0}
+[14.850218] (-) TimerEvent: {}
+[14.929145] (urg_node2) JobEnded: {'identifier': 'urg_node2', 'rc': 0}
+[14.930072] (-) EventReactorShutdown: {}

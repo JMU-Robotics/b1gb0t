@@ -1,0 +1,118 @@
+UpdateCTestConfiguration  from :/home/roboclub/dev_ws/build/urg_node2/CTestConfiguration.ini
+Parse Config file:/home/roboclub/dev_ws/build/urg_node2/CTestConfiguration.ini
+   Site: roboclub-Latitude-5521
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20230228-1552 - Experimental
+UpdateCTestConfiguration  from :/home/roboclub/dev_ws/build/urg_node2/CTestConfiguration.ini
+Parse Config file:/home/roboclub/dev_ws/build/urg_node2/CTestConfiguration.ini
+Test project /home/roboclub/dev_ws/build/urg_node2
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: urg_node2_test
+
+1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/roboclub/dev_ws/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml" "--package-name" "urg_node2" "--output-file" "/home/roboclub/dev_ws/build/urg_node2/ament_cmake_gtest/urg_node2_test.txt" "--command" "/home/roboclub/dev_ws/build/urg_node2/urg_node2_test" "--gtest_output=xml:/home/roboclub/dev_ws/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml"
+1: Test timeout computed to be: 200
+1: -- run_test.py: invoking following command in '/home/roboclub/dev_ws/build/urg_node2':
+1:  - /home/roboclub/dev_ws/build/urg_node2/urg_node2_test --gtest_output=xml:/home/roboclub/dev_ws/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml
+1: [==========] Running 7 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 7 tests from UTM_30_LX_EW
+1: [ RUN      ] UTM_30_LX_EW.normal_scan
+1: [ERROR] [1677599565.113261168] [urg_node2]: Could not open network Hokuyo 2D LiDAR
+1: 192.168.0.10:10940
+1: could not open ethernet port.
+1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:160: Failure
+1: Expected equality of these values:
+1:   node->get_current_state().label()
+1:     Which is: "unconfigured"
+1:   "inactive"
+1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:169: Failure
+1: Expected equality of these values:
+1:   (int)ep_scan.size()
+1:     Which is: 0
+1:   1
+1: [WARN] [1677599575.114144684] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured
+1: [ERROR] [1677599575.114166307] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355
+1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:185: Failure
+1: Expected equality of these values:
+1:   node->get_current_state().label()
+1:     Which is: "unconfigured"
+1:   "active"
+1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:194: Failure
+1: Expected equality of these values:
+1:   (int)ep_scan.size()
+1:     Which is: 0
+1:   1
+1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:199: Failure
+1: Expected equality of these values:
+1:   (int)ep_diag.size()
+1:     Which is: 0
+1:   1
+1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:208: Failure
+1: Expected equality of these values:
+1:   scan_msg.header.frame_id
+1:     Which is: ""
+1:   "laser"
+1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:209: Failure
+1: The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * -540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where
+1: scan_msg.angle_min evaluates to 0,
+1: (2 * 3.14159265358979323846 * -540) / 1440.0 evaluates to -2.3561944901923448, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:210: Failure
+1: The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * 540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where
+1: scan_msg.angle_max evaluates to 0,
+1: (2 * 3.14159265358979323846 * 540) / 1440.0 evaluates to 2.3561944901923448, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:211: Failure
+1: The difference between scan_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where
+1: scan_msg.angle_increment evaluates to 0,
+1: 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:212: Failure
+1: The difference between scan_msg.time_increment and 1 * (270.0 / 360.0) * 0.025 / 1080.0 is 1.7361111111111114e-05, which exceeds 1e-6, where
+1: scan_msg.time_increment evaluates to 0,
+1: 1 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 1.7361111111111114e-05, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:213: Failure
+1: The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where
+1: scan_msg.scan_time evaluates to 0,
+1: 0.025 evaluates to 0.025000000000000001, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:214: Failure
+1: The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where
+1: scan_msg.range_min evaluates to 0,
+1: 0.023 evaluates to 0.023, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:215: Failure
+1: The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where
+1: scan_msg.range_max evaluates to 0,
+1: 60.0 evaluates to 60, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:216: Failure
+1: Expected equality of these values:
+1:   (int)scan_msg.ranges.size()
+1:     Which is: 0
+1:   1081
+1: [  FAILED  ] UTM_30_LX_EW.normal_scan (22029 ms)
+1: [ RUN      ] UTM_30_LX_EW.intensity_scan
+1: [ERROR] [1677599587.133127575] [urg_node2]: Could not open network Hokuyo 2D LiDAR
+1: 192.168.0.10:10940
+1: could not open ethernet port.
+1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:285: Failure
+1: Expected equality of these values:
+1:   node->get_current_state().label()
+1:     Which is: "unconfigured"
+1:   "inactive"
+1: [WARN] [1677599587.133489051] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured
+1: [ERROR] [1677599587.133516732] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355
+1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:290: Failure
+1: Expected equality of these values:
+1:   node->get_current_state().label()
+1:     Which is: "unconfigured"
+1:   "active"

@@ -1,0 +1,21 @@
+from launch import LaunchDescription
+from launch.actions import IncludeLaunchDescription
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch_ros.actions import Node
+
+def generate_launch_description():
+    urg_dir = get_package_share_directory('urg_node2')
+    urg_launch_file_dir = os.path.join(urg_dir, 'launch')
+    return LaunchDescription([
+
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource([urg_launch_file_dir,
+                                           '/urg_node2.launch.py']),
+        ),
+        Node(
+            package='urg_node2',
+            namespace='turtlesim1',
+            executable='turtlesim_node',
+            name='sim'
+        ),
+    ])

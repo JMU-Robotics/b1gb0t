@@ -1,0 +1,432 @@
+[0.000000] (-) TimerEvent: {}
+[0.000540] (urg_node2) JobQueued: {'identifier': 'urg_node2', 'dependencies': OrderedDict([('urg_node2', '/home/roboclub/dev_ws/install/urg_node2')])}
+[0.000579] (urg_node2) JobStarted: {'identifier': 'urg_node2'}
+[0.018181] (urg_node2) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/roboclub/dev_ws/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'roboclub'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/roboclub/dev_ws/install/urg_node2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/roboclub'), ('OLDPWD', '/home/roboclub/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '23280'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/roboclub/rover_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'roboclub'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'roboclub'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/roboclub-Latitude-5521:@/tmp/.ICE-unix/2117,unix/roboclub-Latitude-5521:/tmp/.ICE-unix/2117'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/032bec5c_3366_4c8e_a494_afbf8f8213e8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/roboclub/dev_ws/install/urg_node2:/home/roboclub/rover_workspace/install/sllidar_ros2:/home/roboclub/rover_workspace/install/roverrobotics_input_manager:/home/roboclub/rover_workspace/install/roverrobotics_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/roboclub/dev_ws/build/urg_node2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/roboclub/dev_ws/install/urg_node2:/home/roboclub/rover_workspace/install/sllidar_ros2:/home/roboclub/rover_workspace/install/roverrobotics_input_manager:/home/roboclub/rover_workspace/install/roverrobotics_driver')]), 'shell': False}
+[0.025435] (urg_node2) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/roboclub/dev_ws/build/urg_node2/CTestConfiguration.ini\n'}
+[0.025870] (urg_node2) StdoutLine: {'line': b'Parse Config file:/home/roboclub/dev_ws/build/urg_node2/CTestConfiguration.ini\n'}
+[0.026029] (urg_node2) StdoutLine: {'line': b'   Site: roboclub-Latitude-5521\n'}
+[0.026166] (urg_node2) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.026240] (urg_node2) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.026288] (urg_node2) StdoutLine: {'line': b'Create new tag: 20230228-1552 - Experimental\n'}
+[0.026335] (urg_node2) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/roboclub/dev_ws/build/urg_node2/CTestConfiguration.ini\n'}
+[0.026383] (urg_node2) StdoutLine: {'line': b'Parse Config file:/home/roboclub/dev_ws/build/urg_node2/CTestConfiguration.ini\n'}
+[0.026429] (urg_node2) StdoutLine: {'line': b'Test project /home/roboclub/dev_ws/build/urg_node2\n'}
+[0.026475] (urg_node2) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.026523] (urg_node2) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.026570] (urg_node2) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.026618] (urg_node2) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.026664] (urg_node2) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.026721] (urg_node2) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.026876] (urg_node2) StdoutLine: {'line': b'test 1\n'}
+[0.027052] (urg_node2) StdoutLine: {'line': b'    Start 1: urg_node2_test\n'}
+[0.027227] (urg_node2) StdoutLine: {'line': b'\n'}
+[0.027373] (urg_node2) StdoutLine: {'line': b'1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/roboclub/dev_ws/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml" "--package-name" "urg_node2" "--output-file" "/home/roboclub/dev_ws/build/urg_node2/ament_cmake_gtest/urg_node2_test.txt" "--command" "/home/roboclub/dev_ws/build/urg_node2/urg_node2_test" "--gtest_output=xml:/home/roboclub/dev_ws/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml"\n'}
+[0.027430] (urg_node2) StdoutLine: {'line': b'1: Test timeout computed to be: 200\n'}
+[0.069640] (urg_node2) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/roboclub/dev_ws/build/urg_node2':\n"}
+[0.069922] (urg_node2) StdoutLine: {'line': b'1:  - /home/roboclub/dev_ws/build/urg_node2/urg_node2_test --gtest_output=xml:/home/roboclub/dev_ws/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml\n'}
+[0.073762] (urg_node2) StdoutLine: {'line': b'1: [==========] Running 7 tests from 1 test suite.\n'}
+[0.074005] (urg_node2) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.074158] (urg_node2) StdoutLine: {'line': b'1: [----------] 7 tests from UTM_30_LX_EW\n'}
+[0.074247] (urg_node2) StdoutLine: {'line': b'1: [ RUN      ] UTM_30_LX_EW.normal_scan\n'}
+[0.098552] (-) TimerEvent: {}
+[0.198927] (-) TimerEvent: {}
+[0.299514] (-) TimerEvent: {}
+[0.400108] (-) TimerEvent: {}
+[0.500608] (-) TimerEvent: {}
+[0.601185] (-) TimerEvent: {}
+[0.701645] (-) TimerEvent: {}
+[0.802225] (-) TimerEvent: {}
+[0.902859] (-) TimerEvent: {}
+[1.003455] (-) TimerEvent: {}
+[1.104074] (-) TimerEvent: {}
+[1.204686] (-) TimerEvent: {}
+[1.305322] (-) TimerEvent: {}
+[1.405923] (-) TimerEvent: {}
+[1.506519] (-) TimerEvent: {}
+[1.607111] (-) TimerEvent: {}
+[1.707718] (-) TimerEvent: {}
+[1.808287] (-) TimerEvent: {}
+[1.908893] (-) TimerEvent: {}
+[2.009498] (-) TimerEvent: {}
+[2.095633] (urg_node2) StdoutLine: {'line': b'1: [ERROR] [1677599565.113261168] [urg_node2]: Could not open network Hokuyo 2D LiDAR\n'}
+[2.096186] (urg_node2) StdoutLine: {'line': b'1: 192.168.0.10:10940\n'}
+[2.096355] (urg_node2) StdoutLine: {'line': b'1: could not open ethernet port.\n'}
+[2.096492] (urg_node2) StdoutLine: {'line': b'1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:160: Failure\n'}
+[2.096626] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
+[2.096755] (urg_node2) StdoutLine: {'line': b'1:   node->get_current_state().label()\n'}
+[2.096886] (urg_node2) StdoutLine: {'line': b'1:     Which is: "unconfigured"\n'}
+[2.097012] (urg_node2) StdoutLine: {'line': b'1:   "inactive"\n'}
+[2.097141] (urg_node2) StdoutLine: {'line': b'1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:169: Failure\n'}
+[2.097277] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
+[2.097404] (urg_node2) StdoutLine: {'line': b'1:   (int)ep_scan.size()\n'}
+[2.097534] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
+[2.097662] (urg_node2) StdoutLine: {'line': b'1:   1\n'}
+[2.109664] (-) TimerEvent: {}
+[2.210065] (-) TimerEvent: {}
+[2.310449] (-) TimerEvent: {}
+[2.410845] (-) TimerEvent: {}
+[2.511244] (-) TimerEvent: {}
+[2.611667] (-) TimerEvent: {}
+[2.712067] (-) TimerEvent: {}
+[2.812461] (-) TimerEvent: {}
+[2.912846] (-) TimerEvent: {}
+[3.013225] (-) TimerEvent: {}
+[3.113628] (-) TimerEvent: {}
+[3.214034] (-) TimerEvent: {}
+[3.314429] (-) TimerEvent: {}
+[3.414899] (-) TimerEvent: {}
+[3.515271] (-) TimerEvent: {}
+[3.615654] (-) TimerEvent: {}
+[3.716014] (-) TimerEvent: {}
+[3.816331] (-) TimerEvent: {}
+[3.916751] (-) TimerEvent: {}
+[4.017122] (-) TimerEvent: {}
+[4.117416] (-) TimerEvent: {}
+[4.217810] (-) TimerEvent: {}
+[4.318193] (-) TimerEvent: {}
+[4.418592] (-) TimerEvent: {}
+[4.519038] (-) TimerEvent: {}
+[4.619421] (-) TimerEvent: {}
+[4.719807] (-) TimerEvent: {}
+[4.820192] (-) TimerEvent: {}
+[4.920578] (-) TimerEvent: {}
+[5.020983] (-) TimerEvent: {}
+[5.121378] (-) TimerEvent: {}
+[5.221759] (-) TimerEvent: {}
+[5.322141] (-) TimerEvent: {}
+[5.422530] (-) TimerEvent: {}
+[5.522976] (-) TimerEvent: {}
+[5.623379] (-) TimerEvent: {}
+[5.723772] (-) TimerEvent: {}
+[5.824156] (-) TimerEvent: {}
+[5.924515] (-) TimerEvent: {}
+[6.024902] (-) TimerEvent: {}
+[6.125308] (-) TimerEvent: {}
+[6.225699] (-) TimerEvent: {}
+[6.326088] (-) TimerEvent: {}
+[6.426379] (-) TimerEvent: {}
+[6.526649] (-) TimerEvent: {}
+[6.627087] (-) TimerEvent: {}
+[6.727493] (-) TimerEvent: {}
+[6.827894] (-) TimerEvent: {}
+[6.928297] (-) TimerEvent: {}
+[7.028711] (-) TimerEvent: {}
+[7.129111] (-) TimerEvent: {}
+[7.229503] (-) TimerEvent: {}
+[7.329906] (-) TimerEvent: {}
+[7.430243] (-) TimerEvent: {}
+[7.530663] (-) TimerEvent: {}
+[7.631122] (-) TimerEvent: {}
+[7.731481] (-) TimerEvent: {}
+[7.831720] (-) TimerEvent: {}
+[7.932063] (-) TimerEvent: {}
+[8.032472] (-) TimerEvent: {}
+[8.132861] (-) TimerEvent: {}
+[8.233245] (-) TimerEvent: {}
+[8.333626] (-) TimerEvent: {}
+[8.434018] (-) TimerEvent: {}
+[8.534414] (-) TimerEvent: {}
+[8.634756] (-) TimerEvent: {}
+[8.735182] (-) TimerEvent: {}
+[8.835563] (-) TimerEvent: {}
+[8.935949] (-) TimerEvent: {}
+[9.036333] (-) TimerEvent: {}
+[9.136735] (-) TimerEvent: {}
+[9.237133] (-) TimerEvent: {}
+[9.337511] (-) TimerEvent: {}
+[9.437843] (-) TimerEvent: {}
+[9.538157] (-) TimerEvent: {}
+[9.638554] (-) TimerEvent: {}
+[9.738956] (-) TimerEvent: {}
+[9.839336] (-) TimerEvent: {}
+[9.939719] (-) TimerEvent: {}
+[10.040093] (-) TimerEvent: {}
+[10.140448] (-) TimerEvent: {}
+[10.240891] (-) TimerEvent: {}
+[10.341274] (-) TimerEvent: {}
+[10.441688] (-) TimerEvent: {}
+[10.542078] (-) TimerEvent: {}
+[10.642463] (-) TimerEvent: {}
+[10.742855] (-) TimerEvent: {}
+[10.843193] (-) TimerEvent: {}
+[10.943577] (-) TimerEvent: {}
+[11.043978] (-) TimerEvent: {}
+[11.144373] (-) TimerEvent: {}
+[11.244768] (-) TimerEvent: {}
+[11.345142] (-) TimerEvent: {}
+[11.445540] (-) TimerEvent: {}
+[11.545938] (-) TimerEvent: {}
+[11.646321] (-) TimerEvent: {}
+[11.746707] (-) TimerEvent: {}
+[11.847126] (-) TimerEvent: {}
+[11.947563] (-) TimerEvent: {}
+[12.047947] (-) TimerEvent: {}
+[12.096416] (urg_node2) StdoutLine: {'line': b'1: [WARN] [1677599575.114144684] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured\n'}
+[12.096704] (urg_node2) StdoutLine: {'line': b'1: [ERROR] [1677599575.114166307] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355\n'}
+[12.096802] (urg_node2) StdoutLine: {'line': b'1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:185: Failure\n'}
+[12.096847] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
+[12.096890] (urg_node2) StdoutLine: {'line': b'1:   node->get_current_state().label()\n'}
+[12.096933] (urg_node2) StdoutLine: {'line': b'1:     Which is: "unconfigured"\n'}
+[12.096975] (urg_node2) StdoutLine: {'line': b'1:   "active"\n'}
+[12.097017] (urg_node2) StdoutLine: {'line': b'1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:194: Failure\n'}
+[12.097059] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
+[12.097101] (urg_node2) StdoutLine: {'line': b'1:   (int)ep_scan.size()\n'}
+[12.097156] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
+[12.097197] (urg_node2) StdoutLine: {'line': b'1:   1\n'}
+[12.097241] (urg_node2) StdoutLine: {'line': b'1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:199: Failure\n'}
+[12.097290] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
+[12.097333] (urg_node2) StdoutLine: {'line': b'1:   (int)ep_diag.size()\n'}
+[12.097373] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
+[12.097413] (urg_node2) StdoutLine: {'line': b'1:   1\n'}
+[12.148132] (-) TimerEvent: {}
+[12.248526] (-) TimerEvent: {}
+[12.348926] (-) TimerEvent: {}
+[12.449320] (-) TimerEvent: {}
+[12.549694] (-) TimerEvent: {}
+[12.650078] (-) TimerEvent: {}
+[12.750427] (-) TimerEvent: {}
+[12.850813] (-) TimerEvent: {}
+[12.951206] (-) TimerEvent: {}
+[13.051585] (-) TimerEvent: {}
+[13.151969] (-) TimerEvent: {}
+[13.252346] (-) TimerEvent: {}
+[13.352722] (-) TimerEvent: {}
+[13.453099] (-) TimerEvent: {}
+[13.553491] (-) TimerEvent: {}
+[13.653868] (-) TimerEvent: {}
+[13.754229] (-) TimerEvent: {}
+[13.854493] (-) TimerEvent: {}
+[13.954914] (-) TimerEvent: {}
+[14.055294] (-) TimerEvent: {}
+[14.155613] (-) TimerEvent: {}
+[14.256014] (-) TimerEvent: {}
+[14.356389] (-) TimerEvent: {}
+[14.456746] (-) TimerEvent: {}
+[14.557124] (-) TimerEvent: {}
+[14.657503] (-) TimerEvent: {}
+[14.757812] (-) TimerEvent: {}
+[14.858199] (-) TimerEvent: {}
+[14.958592] (-) TimerEvent: {}
+[15.058999] (-) TimerEvent: {}
+[15.159387] (-) TimerEvent: {}
+[15.259790] (-) TimerEvent: {}
+[15.360170] (-) TimerEvent: {}
+[15.460566] (-) TimerEvent: {}
+[15.560929] (-) TimerEvent: {}
+[15.661303] (-) TimerEvent: {}
+[15.761698] (-) TimerEvent: {}
+[15.862082] (-) TimerEvent: {}
+[15.962472] (-) TimerEvent: {}
+[16.062974] (-) TimerEvent: {}
+[16.163299] (-) TimerEvent: {}
+[16.263688] (-) TimerEvent: {}
+[16.364083] (-) TimerEvent: {}
+[16.464453] (-) TimerEvent: {}
+[16.564863] (-) TimerEvent: {}
+[16.665257] (-) TimerEvent: {}
+[16.765649] (-) TimerEvent: {}
+[16.866028] (-) TimerEvent: {}
+[16.966402] (-) TimerEvent: {}
+[17.066803] (-) TimerEvent: {}
+[17.167111] (-) TimerEvent: {}
+[17.267336] (-) TimerEvent: {}
+[17.367732] (-) TimerEvent: {}
+[17.468106] (-) TimerEvent: {}
+[17.568487] (-) TimerEvent: {}
+[17.668864] (-) TimerEvent: {}
+[17.769261] (-) TimerEvent: {}
+[17.869648] (-) TimerEvent: {}
+[17.970029] (-) TimerEvent: {}
+[18.070413] (-) TimerEvent: {}
+[18.170802] (-) TimerEvent: {}
+[18.271249] (-) TimerEvent: {}
+[18.371682] (-) TimerEvent: {}
+[18.472079] (-) TimerEvent: {}
+[18.572446] (-) TimerEvent: {}
+[18.672823] (-) TimerEvent: {}
+[18.773205] (-) TimerEvent: {}
+[18.873582] (-) TimerEvent: {}
+[18.973987] (-) TimerEvent: {}
+[19.074395] (-) TimerEvent: {}
+[19.174787] (-) TimerEvent: {}
+[19.275194] (-) TimerEvent: {}
+[19.375587] (-) TimerEvent: {}
+[19.476042] (-) TimerEvent: {}
+[19.576450] (-) TimerEvent: {}
+[19.676848] (-) TimerEvent: {}
+[19.777257] (-) TimerEvent: {}
+[19.877666] (-) TimerEvent: {}
+[19.978109] (-) TimerEvent: {}
+[20.078603] (-) TimerEvent: {}
+[20.179291] (-) TimerEvent: {}
+[20.279667] (-) TimerEvent: {}
+[20.380399] (-) TimerEvent: {}
+[20.480883] (-) TimerEvent: {}
+[20.581324] (-) TimerEvent: {}
+[20.681758] (-) TimerEvent: {}
+[20.782166] (-) TimerEvent: {}
+[20.882522] (-) TimerEvent: {}
+[20.982891] (-) TimerEvent: {}
+[21.083288] (-) TimerEvent: {}
+[21.183624] (-) TimerEvent: {}
+[21.284002] (-) TimerEvent: {}
+[21.384323] (-) TimerEvent: {}
+[21.484666] (-) TimerEvent: {}
+[21.585103] (-) TimerEvent: {}
+[21.685513] (-) TimerEvent: {}
+[21.785973] (-) TimerEvent: {}
+[21.886345] (-) TimerEvent: {}
+[21.986818] (-) TimerEvent: {}
+[22.087159] (-) TimerEvent: {}
+[22.096685] (urg_node2) StdoutLine: {'line': b'1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:208: Failure\n'}
+[22.097176] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
+[22.097271] (urg_node2) StdoutLine: {'line': b'1:   scan_msg.header.frame_id\n'}
+[22.097380] (urg_node2) StdoutLine: {'line': b'1:     Which is: ""\n'}
+[22.097452] (urg_node2) StdoutLine: {'line': b'1:   "laser"\n'}
+[22.097520] (urg_node2) StdoutLine: {'line': b'1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:209: Failure\n'}
+[22.097607] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * -540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where\n'}
+[22.097680] (urg_node2) StdoutLine: {'line': b'1: scan_msg.angle_min evaluates to 0,\n'}
+[22.097747] (urg_node2) StdoutLine: {'line': b'1: (2 * 3.14159265358979323846 * -540) / 1440.0 evaluates to -2.3561944901923448, and\n'}
+[22.097814] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
+[22.097880] (urg_node2) StdoutLine: {'line': b'1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:210: Failure\n'}
+[22.097958] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * 540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where\n'}
+[22.098032] (urg_node2) StdoutLine: {'line': b'1: scan_msg.angle_max evaluates to 0,\n'}
+[22.098108] (urg_node2) StdoutLine: {'line': b'1: (2 * 3.14159265358979323846 * 540) / 1440.0 evaluates to 2.3561944901923448, and\n'}
+[22.098176] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
+[22.098303] (urg_node2) StdoutLine: {'line': b'1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:211: Failure\n'}
+[22.098396] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where\n'}
+[22.098484] (urg_node2) StdoutLine: {'line': b'1: scan_msg.angle_increment evaluates to 0,\n'}
+[22.098597] (urg_node2) StdoutLine: {'line': b'1: 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and\n'}
+[22.098670] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
+[22.098784] (urg_node2) StdoutLine: {'line': b'1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:212: Failure\n'}
+[22.098849] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.time_increment and 1 * (270.0 / 360.0) * 0.025 / 1080.0 is 1.7361111111111114e-05, which exceeds 1e-6, where\n'}
+[22.098931] (urg_node2) StdoutLine: {'line': b'1: scan_msg.time_increment evaluates to 0,\n'}
+[22.099019] (urg_node2) StdoutLine: {'line': b'1: 1 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 1.7361111111111114e-05, and\n'}
+[22.099100] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
+[22.099187] (urg_node2) StdoutLine: {'line': b'1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:213: Failure\n'}
+[22.099293] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where\n'}
+[22.099369] (urg_node2) StdoutLine: {'line': b'1: scan_msg.scan_time evaluates to 0,\n'}
+[22.099431] (urg_node2) StdoutLine: {'line': b'1: 0.025 evaluates to 0.025000000000000001, and\n'}
+[22.099501] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
+[22.099568] (urg_node2) StdoutLine: {'line': b'1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:214: Failure\n'}
+[22.099654] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where\n'}
+[22.099717] (urg_node2) StdoutLine: {'line': b'1: scan_msg.range_min evaluates to 0,\n'}
+[22.099776] (urg_node2) StdoutLine: {'line': b'1: 0.023 evaluates to 0.023, and\n'}
+[22.099870] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
+[22.099935] (urg_node2) StdoutLine: {'line': b'1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:215: Failure\n'}
+[22.100027] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where\n'}
+[22.100089] (urg_node2) StdoutLine: {'line': b'1: scan_msg.range_max evaluates to 0,\n'}
+[22.100164] (urg_node2) StdoutLine: {'line': b'1: 60.0 evaluates to 60, and\n'}
+[22.100228] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
+[22.100302] (urg_node2) StdoutLine: {'line': b'1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:216: Failure\n'}
+[22.100368] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
+[22.100437] (urg_node2) StdoutLine: {'line': b'1:   (int)scan_msg.ranges.size()\n'}
+[22.100504] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
+[22.100572] (urg_node2) StdoutLine: {'line': b'1:   1081\n'}
+[22.102764] (urg_node2) StdoutLine: {'line': b'1: [  FAILED  ] UTM_30_LX_EW.normal_scan (22029 ms)\n'}
+[22.102891] (urg_node2) StdoutLine: {'line': b'1: [ RUN      ] UTM_30_LX_EW.intensity_scan\n'}
+[22.187255] (-) TimerEvent: {}
+[22.287528] (-) TimerEvent: {}
+[22.387722] (-) TimerEvent: {}
+[22.487880] (-) TimerEvent: {}
+[22.588052] (-) TimerEvent: {}
+[22.688197] (-) TimerEvent: {}
+[22.788382] (-) TimerEvent: {}
+[22.888551] (-) TimerEvent: {}
+[22.988814] (-) TimerEvent: {}
+[23.089212] (-) TimerEvent: {}
+[23.189617] (-) TimerEvent: {}
+[23.289976] (-) TimerEvent: {}
+[23.390248] (-) TimerEvent: {}
+[23.490487] (-) TimerEvent: {}
+[23.590842] (-) TimerEvent: {}
+[23.691404] (-) TimerEvent: {}
+[23.791974] (-) TimerEvent: {}
+[23.892572] (-) TimerEvent: {}
+[23.993174] (-) TimerEvent: {}
+[24.093776] (-) TimerEvent: {}
+[24.115670] (urg_node2) StdoutLine: {'line': b'1: [ERROR] [1677599587.133127575] [urg_node2]: Could not open network Hokuyo 2D LiDAR\n'}
+[24.116051] (urg_node2) StdoutLine: {'line': b'1: 192.168.0.10:10940\n'}
+[24.116207] (urg_node2) StdoutLine: {'line': b'1: could not open ethernet port.\n'}
+[24.116343] (urg_node2) StdoutLine: {'line': b'1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:285: Failure\n'}
+[24.116476] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
+[24.116610] (urg_node2) StdoutLine: {'line': b'1:   node->get_current_state().label()\n'}
+[24.116739] (urg_node2) StdoutLine: {'line': b'1:     Which is: "unconfigured"\n'}
+[24.116872] (urg_node2) StdoutLine: {'line': b'1:   "inactive"\n'}
+[24.117028] (urg_node2) StdoutLine: {'line': b'1: [WARN] [1677599587.133489051] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured\n'}
+[24.117160] (urg_node2) StdoutLine: {'line': b'1: [ERROR] [1677599587.133516732] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355\n'}
+[24.117289] (urg_node2) StdoutLine: {'line': b'1: /home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:290: Failure\n'}
+[24.117414] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
+[24.117568] (urg_node2) StdoutLine: {'line': b'1:   node->get_current_state().label()\n'}
+[24.117701] (urg_node2) StdoutLine: {'line': b'1:     Which is: "unconfigured"\n'}
+[24.117828] (urg_node2) StdoutLine: {'line': b'1:   "active"\n'}
+[24.193948] (-) TimerEvent: {}
+[24.294301] (-) TimerEvent: {}
+[24.394749] (-) TimerEvent: {}
+[24.495220] (-) TimerEvent: {}
+[24.595608] (-) TimerEvent: {}
+[24.695979] (-) TimerEvent: {}
+[24.796460] (-) TimerEvent: {}
+[24.897041] (-) TimerEvent: {}
+[24.997498] (-) TimerEvent: {}
+[25.097888] (-) TimerEvent: {}
+[25.198388] (-) TimerEvent: {}
+[25.298740] (-) TimerEvent: {}
+[25.398912] (-) TimerEvent: {}
+[25.499174] (-) TimerEvent: {}
+[25.599418] (-) TimerEvent: {}
+[25.699797] (-) TimerEvent: {}
+[25.800105] (-) TimerEvent: {}
+[25.900524] (-) TimerEvent: {}
+[26.000954] (-) TimerEvent: {}
+[26.101354] (-) TimerEvent: {}
+[26.201757] (-) TimerEvent: {}
+[26.302164] (-) TimerEvent: {}
+[26.402505] (-) TimerEvent: {}
+[26.502720] (-) TimerEvent: {}
+[26.603370] (-) TimerEvent: {}
+[26.703768] (-) TimerEvent: {}
+[26.804130] (-) TimerEvent: {}
+[26.904459] (-) TimerEvent: {}
+[27.004850] (-) TimerEvent: {}
+[27.105170] (-) TimerEvent: {}
+[27.205543] (-) TimerEvent: {}
+[27.305993] (-) TimerEvent: {}
+[27.406410] (-) TimerEvent: {}
+[27.506817] (-) TimerEvent: {}
+[27.607205] (-) TimerEvent: {}
+[27.707568] (-) TimerEvent: {}
+[27.807895] (-) TimerEvent: {}
+[27.908331] (-) TimerEvent: {}
+[28.008740] (-) TimerEvent: {}
+[28.109140] (-) TimerEvent: {}
+[28.209566] (-) TimerEvent: {}
+[28.309961] (-) TimerEvent: {}
+[28.410362] (-) TimerEvent: {}
+[28.510775] (-) TimerEvent: {}
+[28.611187] (-) TimerEvent: {}
+[28.711595] (-) TimerEvent: {}
+[28.811997] (-) TimerEvent: {}
+[28.912366] (-) TimerEvent: {}
+[29.012724] (-) TimerEvent: {}
+[29.113118] (-) TimerEvent: {}
+[29.213517] (-) TimerEvent: {}
+[29.313905] (-) TimerEvent: {}
+[29.414281] (-) TimerEvent: {}
+[29.514665] (-) TimerEvent: {}
+[29.615092] (-) TimerEvent: {}
+[29.715479] (-) TimerEvent: {}
+[29.815866] (-) TimerEvent: {}
+[29.916239] (-) TimerEvent: {}
+[30.016630] (-) TimerEvent: {}
+[30.117017] (-) TimerEvent: {}
+[30.217390] (-) TimerEvent: {}
+[30.317796] (-) TimerEvent: {}
+[30.418219] (-) TimerEvent: {}
+[30.518638] (-) TimerEvent: {}
+[30.619077] (-) TimerEvent: {}
+[30.719514] (-) TimerEvent: {}
+[30.819945] (-) TimerEvent: {}
+[30.908689] (urg_node2) CommandEnded: {'returncode': -2}
+[30.909218] (urg_node2) JobEnded: {'identifier': 'urg_node2', 'rc': 'SIGINT'}
+[30.919515] (-) EventReactorShutdown: {}

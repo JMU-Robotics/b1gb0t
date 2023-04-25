@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="7" failures="7" disabled="0" errors="0" time="100.928" timestamp="2023-02-28T10:52:43" name="AllTests">
+  <testsuite name="UTM_30_LX_EW" tests="7" failures="7" disabled="0" errors="0" time="100.928" timestamp="2023-02-28T10:52:43">
+    <testcase name="normal_scan" status="run" result="completed" time="22.029" timestamp="2023-02-28T10:52:43" classname="UTM_30_LX_EW">
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:160&#x0A;Expected equality of these values:&#x0A;  node-&gt;get_current_state().label()&#x0A;    Which is: &quot;unconfigured&quot;&#x0A;  &quot;inactive&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:160
+Expected equality of these values:
+  node->get_current_state().label()
+    Which is: "unconfigured"
+  "inactive"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:169&#x0A;Expected equality of these values:&#x0A;  (int)ep_scan.size()&#x0A;    Which is: 0&#x0A;  1" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:169
+Expected equality of these values:
+  (int)ep_scan.size()
+    Which is: 0
+  1]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:185&#x0A;Expected equality of these values:&#x0A;  node-&gt;get_current_state().label()&#x0A;    Which is: &quot;unconfigured&quot;&#x0A;  &quot;active&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:185
+Expected equality of these values:
+  node->get_current_state().label()
+    Which is: "unconfigured"
+  "active"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:194&#x0A;Expected equality of these values:&#x0A;  (int)ep_scan.size()&#x0A;    Which is: 0&#x0A;  1" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:194
+Expected equality of these values:
+  (int)ep_scan.size()
+    Which is: 0
+  1]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:199&#x0A;Expected equality of these values:&#x0A;  (int)ep_diag.size()&#x0A;    Which is: 0&#x0A;  1" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:199
+Expected equality of these values:
+  (int)ep_diag.size()
+    Which is: 0
+  1]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:208&#x0A;Expected equality of these values:&#x0A;  scan_msg.header.frame_id&#x0A;    Which is: &quot;&quot;&#x0A;  &quot;laser&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:208
+Expected equality of these values:
+  scan_msg.header.frame_id
+    Which is: ""
+  "laser"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:209&#x0A;The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * -540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where&#x0A;scan_msg.angle_min evaluates to 0,&#x0A;(2 * 3.14159265358979323846 * -540) / 1440.0 evaluates to -2.3561944901923448, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:209
+The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * -540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where
+scan_msg.angle_min evaluates to 0,
+(2 * 3.14159265358979323846 * -540) / 1440.0 evaluates to -2.3561944901923448, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:210&#x0A;The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * 540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where&#x0A;scan_msg.angle_max evaluates to 0,&#x0A;(2 * 3.14159265358979323846 * 540) / 1440.0 evaluates to 2.3561944901923448, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:210
+The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * 540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where
+scan_msg.angle_max evaluates to 0,
+(2 * 3.14159265358979323846 * 540) / 1440.0 evaluates to 2.3561944901923448, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:211&#x0A;The difference between scan_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where&#x0A;scan_msg.angle_increment evaluates to 0,&#x0A;1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:211
+The difference between scan_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where
+scan_msg.angle_increment evaluates to 0,
+1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:212&#x0A;The difference between scan_msg.time_increment and 1 * (270.0 / 360.0) * 0.025 / 1080.0 is 1.7361111111111114e-05, which exceeds 1e-6, where&#x0A;scan_msg.time_increment evaluates to 0,&#x0A;1 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 1.7361111111111114e-05, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:212
+The difference between scan_msg.time_increment and 1 * (270.0 / 360.0) * 0.025 / 1080.0 is 1.7361111111111114e-05, which exceeds 1e-6, where
+scan_msg.time_increment evaluates to 0,
+1 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 1.7361111111111114e-05, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:213&#x0A;The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where&#x0A;scan_msg.scan_time evaluates to 0,&#x0A;0.025 evaluates to 0.025000000000000001, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:213
+The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where
+scan_msg.scan_time evaluates to 0,
+0.025 evaluates to 0.025000000000000001, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:214&#x0A;The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where&#x0A;scan_msg.range_min evaluates to 0,&#x0A;0.023 evaluates to 0.023, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:214
+The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where
+scan_msg.range_min evaluates to 0,
+0.023 evaluates to 0.023, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:215&#x0A;The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where&#x0A;scan_msg.range_max evaluates to 0,&#x0A;60.0 evaluates to 60, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:215
+The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where
+scan_msg.range_max evaluates to 0,
+60.0 evaluates to 60, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:216&#x0A;Expected equality of these values:&#x0A;  (int)scan_msg.ranges.size()&#x0A;    Which is: 0&#x0A;  1081" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:216
+Expected equality of these values:
+  (int)scan_msg.ranges.size()
+    Which is: 0
+  1081]]></failure>
+    </testcase>
+    <testcase name="intensity_scan" status="run" result="completed" time="8.81" timestamp="2023-02-28T10:53:05" classname="UTM_30_LX_EW">
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:285&#x0A;Expected equality of these values:&#x0A;  node-&gt;get_current_state().label()&#x0A;    Which is: &quot;unconfigured&quot;&#x0A;  &quot;inactive&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:285
+Expected equality of these values:
+  node->get_current_state().label()
+    Which is: "unconfigured"
+  "inactive"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:290&#x0A;Expected equality of these values:&#x0A;  node-&gt;get_current_state().label()&#x0A;    Which is: &quot;unconfigured&quot;&#x0A;  &quot;active&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:290
+Expected equality of these values:
+  node->get_current_state().label()
+    Which is: "unconfigured"
+  "active"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:300&#x0A;Expected equality of these values:&#x0A;  scan_msg.header.frame_id&#x0A;    Which is: &quot;&quot;&#x0A;  &quot;hokuyo&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:300
+Expected equality of these values:
+  scan_msg.header.frame_id
+    Which is: ""
+  "hokuyo"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:301&#x0A;The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * -360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where&#x0A;scan_msg.angle_min evaluates to 0,&#x0A;(2 * 3.14159265358979323846 * -360) / 1440.0 evaluates to -1.5707963267948966, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:301
+The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * -360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where
+scan_msg.angle_min evaluates to 0,
+(2 * 3.14159265358979323846 * -360) / 1440.0 evaluates to -1.5707963267948966, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:302&#x0A;The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * 360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where&#x0A;scan_msg.angle_max evaluates to 0,&#x0A;(2 * 3.14159265358979323846 * 360) / 1440.0 evaluates to 1.5707963267948966, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:302
+The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * 360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where
+scan_msg.angle_max evaluates to 0,
+(2 * 3.14159265358979323846 * 360) / 1440.0 evaluates to 1.5707963267948966, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:303&#x0A;The difference between scan_msg.angle_increment and 2 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0087266462599716477, which exceeds 1e-6, where&#x0A;scan_msg.angle_increment evaluates to 0,&#x0A;2 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0087266462599716477, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:303
+The difference between scan_msg.angle_increment and 2 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0087266462599716477, which exceeds 1e-6, where
+scan_msg.angle_increment evaluates to 0,
+2 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0087266462599716477, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:304&#x0A;The difference between scan_msg.time_increment and 2 * (180.0 / 360.0) * 0.025 / 720.0 is 3.4722222222222222e-05, which exceeds 1e-6, where&#x0A;scan_msg.time_increment evaluates to 0,&#x0A;2 * (180.0 / 360.0) * 0.025 / 720.0 evaluates to 3.4722222222222222e-05, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:304
+The difference between scan_msg.time_increment and 2 * (180.0 / 360.0) * 0.025 / 720.0 is 3.4722222222222222e-05, which exceeds 1e-6, where
+scan_msg.time_increment evaluates to 0,
+2 * (180.0 / 360.0) * 0.025 / 720.0 evaluates to 3.4722222222222222e-05, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:305&#x0A;The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where&#x0A;scan_msg.scan_time evaluates to 0,&#x0A;0.025 evaluates to 0.025000000000000001, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:305
+The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where
+scan_msg.scan_time evaluates to 0,
+0.025 evaluates to 0.025000000000000001, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:306&#x0A;The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where&#x0A;scan_msg.range_min evaluates to 0,&#x0A;0.023 evaluates to 0.023, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:306
+The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where
+scan_msg.range_min evaluates to 0,
+0.023 evaluates to 0.023, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:307&#x0A;The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where&#x0A;scan_msg.range_max evaluates to 0,&#x0A;60.0 evaluates to 60, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:307
+The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where
+scan_msg.range_max evaluates to 0,
+60.0 evaluates to 60, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:308&#x0A;Expected equality of these values:&#x0A;  (int)scan_msg.ranges.size()&#x0A;    Which is: 0&#x0A;  361" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:308
+Expected equality of these values:
+  (int)scan_msg.ranges.size()
+    Which is: 0
+  361]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:316&#x0A;Expected equality of these values:&#x0A;  (int)scan_msg.intensities.size()&#x0A;    Which is: 0&#x0A;  361" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:316
+Expected equality of these values:
+  (int)scan_msg.intensities.size()
+    Which is: 0
+  361]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:321&#x0A;Expected equality of these values:&#x0A;  node-&gt;get_current_state().label()&#x0A;    Which is: &quot;shuttingdown&quot;&#x0A;  &quot;finalized&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:321
+Expected equality of these values:
+  node->get_current_state().label()
+    Which is: "shuttingdown"
+  "finalized"]]></failure>
+    </testcase>
+    <testcase name="multiecho_scan" status="run" result="completed" time="12.019" timestamp="2023-02-28T10:53:13" classname="UTM_30_LX_EW">
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:362&#x0A;Expected equality of these values:&#x0A;  node-&gt;get_current_state().label()&#x0A;    Which is: &quot;unconfigured&quot;&#x0A;  &quot;inactive&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:362
+Expected equality of these values:
+  node->get_current_state().label()
+    Which is: "unconfigured"
+  "inactive"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:367&#x0A;Expected equality of these values:&#x0A;  node-&gt;get_current_state().label()&#x0A;    Which is: &quot;unconfigured&quot;&#x0A;  &quot;active&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:367
+Expected equality of these values:
+  node->get_current_state().label()
+    Which is: "unconfigured"
+  "active"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:378&#x0A;Expected equality of these values:&#x0A;  multiecho_msg.header.frame_id&#x0A;    Which is: &quot;&quot;&#x0A;  &quot;laser&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:378
+Expected equality of these values:
+  multiecho_msg.header.frame_id
+    Which is: ""
+  "laser"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:379&#x0A;The difference between multiecho_msg.angle_min and (2 * 3.14159265358979323846 * -360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where&#x0A;multiecho_msg.angle_min evaluates to 0,&#x0A;(2 * 3.14159265358979323846 * -360) / 1440.0 evaluates to -1.5707963267948966, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:379
+The difference between multiecho_msg.angle_min and (2 * 3.14159265358979323846 * -360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where
+multiecho_msg.angle_min evaluates to 0,
+(2 * 3.14159265358979323846 * -360) / 1440.0 evaluates to -1.5707963267948966, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:380&#x0A;The difference between multiecho_msg.angle_max and (2 * 3.14159265358979323846 * 360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where&#x0A;multiecho_msg.angle_max evaluates to 0,&#x0A;(2 * 3.14159265358979323846 * 360) / 1440.0 evaluates to 1.5707963267948966, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:380
+The difference between multiecho_msg.angle_max and (2 * 3.14159265358979323846 * 360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where
+multiecho_msg.angle_max evaluates to 0,
+(2 * 3.14159265358979323846 * 360) / 1440.0 evaluates to 1.5707963267948966, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:381&#x0A;The difference between multiecho_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where&#x0A;multiecho_msg.angle_increment evaluates to 0,&#x0A;1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:381
+The difference between multiecho_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where
+multiecho_msg.angle_increment evaluates to 0,
+1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:382&#x0A;The difference between multiecho_msg.time_increment and 1 * (180.0 / 360.0) * 0.025 / 720.0 is 1.7361111111111111e-05, which exceeds 1e-6, where&#x0A;multiecho_msg.time_increment evaluates to 0,&#x0A;1 * (180.0 / 360.0) * 0.025 / 720.0 evaluates to 1.7361111111111111e-05, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:382
+The difference between multiecho_msg.time_increment and 1 * (180.0 / 360.0) * 0.025 / 720.0 is 1.7361111111111111e-05, which exceeds 1e-6, where
+multiecho_msg.time_increment evaluates to 0,
+1 * (180.0 / 360.0) * 0.025 / 720.0 evaluates to 1.7361111111111111e-05, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:383&#x0A;The difference between multiecho_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where&#x0A;multiecho_msg.scan_time evaluates to 0,&#x0A;0.025 evaluates to 0.025000000000000001, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:383
+The difference between multiecho_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where
+multiecho_msg.scan_time evaluates to 0,
+0.025 evaluates to 0.025000000000000001, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:384&#x0A;The difference between multiecho_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where&#x0A;multiecho_msg.range_min evaluates to 0,&#x0A;0.023 evaluates to 0.023, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:384
+The difference between multiecho_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where
+multiecho_msg.range_min evaluates to 0,
+0.023 evaluates to 0.023, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:385&#x0A;The difference between multiecho_msg.range_max and 60.0 is 60, which exceeds 1e-6, where&#x0A;multiecho_msg.range_max evaluates to 0,&#x0A;60.0 evaluates to 60, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:385
+The difference between multiecho_msg.range_max and 60.0 is 60, which exceeds 1e-6, where
+multiecho_msg.range_max evaluates to 0,
+60.0 evaluates to 60, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:386&#x0A;Expected equality of these values:&#x0A;  (int)multiecho_msg.ranges.size()&#x0A;    Which is: 0&#x0A;  721" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:386
+Expected equality of these values:
+  (int)multiecho_msg.ranges.size()
+    Which is: 0
+  721]]></failure>
+    </testcase>
+    <testcase name="multiecho_intensity_scan" status="run" result="completed" time="22.02" timestamp="2023-02-28T10:53:25" classname="UTM_30_LX_EW">
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:473&#x0A;Expected equality of these values:&#x0A;  node-&gt;get_current_state().label()&#x0A;    Which is: &quot;unconfigured&quot;&#x0A;  &quot;inactive&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:473
+Expected equality of these values:
+  node->get_current_state().label()
+    Which is: "unconfigured"
+  "inactive"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:483&#x0A;Expected equality of these values:&#x0A;  (int)ep_multiecho.size()&#x0A;    Which is: 0&#x0A;  1" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:483
+Expected equality of these values:
+  (int)ep_multiecho.size()
+    Which is: 0
+  1]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:484&#x0A;Expected equality of these values:&#x0A;  (int)ep_first.size()&#x0A;    Which is: 0&#x0A;  1" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:484
+Expected equality of these values:
+  (int)ep_first.size()
+    Which is: 0
+  1]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:485&#x0A;Expected equality of these values:&#x0A;  (int)ep_last.size()&#x0A;    Which is: 0&#x0A;  1" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:485
+Expected equality of these values:
+  (int)ep_last.size()
+    Which is: 0
+  1]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:486&#x0A;Expected equality of these values:&#x0A;  (int)ep_most.size()&#x0A;    Which is: 0&#x0A;  1" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:486
+Expected equality of these values:
+  (int)ep_most.size()
+    Which is: 0
+  1]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:498&#x0A;Expected equality of these values:&#x0A;  node-&gt;get_current_state().label()&#x0A;    Which is: &quot;unconfigured&quot;&#x0A;  &quot;active&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:498
+Expected equality of these values:
+  node->get_current_state().label()
+    Which is: "unconfigured"
+  "active"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:510&#x0A;Expected equality of these values:&#x0A;  multiecho_msg.header.frame_id&#x0A;    Which is: &quot;&quot;&#x0A;  &quot;hokuyo&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:510
+Expected equality of these values:
+  multiecho_msg.header.frame_id
+    Which is: ""
+  "hokuyo"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:511&#x0A;The difference between multiecho_msg.angle_min and (2 * 3.14159265358979323846 * -540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where&#x0A;multiecho_msg.angle_min evaluates to 0,&#x0A;(2 * 3.14159265358979323846 * -540) / 1440.0 evaluates to -2.3561944901923448, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:511
+The difference between multiecho_msg.angle_min and (2 * 3.14159265358979323846 * -540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where
+multiecho_msg.angle_min evaluates to 0,
+(2 * 3.14159265358979323846 * -540) / 1440.0 evaluates to -2.3561944901923448, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:512&#x0A;The difference between multiecho_msg.angle_max and (2 * 3.14159265358979323846 * 540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where&#x0A;multiecho_msg.angle_max evaluates to 0,&#x0A;(2 * 3.14159265358979323846 * 540) / 1440.0 evaluates to 2.3561944901923448, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:512
+The difference between multiecho_msg.angle_max and (2 * 3.14159265358979323846 * 540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where
+multiecho_msg.angle_max evaluates to 0,
+(2 * 3.14159265358979323846 * 540) / 1440.0 evaluates to 2.3561944901923448, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:513&#x0A;The difference between multiecho_msg.angle_increment and 99 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.43196898986859661, which exceeds 1e-6, where&#x0A;multiecho_msg.angle_increment evaluates to 0,&#x0A;99 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.43196898986859661, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:513
+The difference between multiecho_msg.angle_increment and 99 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.43196898986859661, which exceeds 1e-6, where
+multiecho_msg.angle_increment evaluates to 0,
+99 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.43196898986859661, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:514&#x0A;The difference between multiecho_msg.time_increment and 99 * (270.0 / 360.0) * 0.025 / 1080.0 is 0.0017187500000000002, which exceeds 1e-6, where&#x0A;multiecho_msg.time_increment evaluates to 0,&#x0A;99 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 0.0017187500000000002, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:514
+The difference between multiecho_msg.time_increment and 99 * (270.0 / 360.0) * 0.025 / 1080.0 is 0.0017187500000000002, which exceeds 1e-6, where
+multiecho_msg.time_increment evaluates to 0,
+99 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 0.0017187500000000002, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:515&#x0A;The difference between multiecho_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where&#x0A;multiecho_msg.scan_time evaluates to 0,&#x0A;0.025 evaluates to 0.025000000000000001, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:515
+The difference between multiecho_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where
+multiecho_msg.scan_time evaluates to 0,
+0.025 evaluates to 0.025000000000000001, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:516&#x0A;The difference between multiecho_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where&#x0A;multiecho_msg.range_min evaluates to 0,&#x0A;0.023 evaluates to 0.023, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:516
+The difference between multiecho_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where
+multiecho_msg.range_min evaluates to 0,
+0.023 evaluates to 0.023, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:517&#x0A;The difference between multiecho_msg.range_max and 60.0 is 60, which exceeds 1e-6, where&#x0A;multiecho_msg.range_max evaluates to 0,&#x0A;60.0 evaluates to 60, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:517
+The difference between multiecho_msg.range_max and 60.0 is 60, which exceeds 1e-6, where
+multiecho_msg.range_max evaluates to 0,
+60.0 evaluates to 60, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:518&#x0A;Expected equality of these values:&#x0A;  (int)multiecho_msg.ranges.size()&#x0A;    Which is: 0&#x0A;  11" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:518
+Expected equality of these values:
+  (int)multiecho_msg.ranges.size()
+    Which is: 0
+  11]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:533&#x0A;Expected equality of these values:&#x0A;  (int)multiecho_msg.intensities.size()&#x0A;    Which is: 0&#x0A;  11" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:533
+Expected equality of these values:
+  (int)multiecho_msg.intensities.size()
+    Which is: 0
+  11]]></failure>
+    </testcase>
+    <testcase name="normal_scan_param" status="run" result="completed" time="12.017" timestamp="2023-02-28T10:53:47" classname="UTM_30_LX_EW">
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:608&#x0A;Expected equality of these values:&#x0A;  node-&gt;get_current_state().label()&#x0A;    Which is: &quot;unconfigured&quot;&#x0A;  &quot;inactive&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:608
+Expected equality of these values:
+  node->get_current_state().label()
+    Which is: "unconfigured"
+  "inactive"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:613&#x0A;Expected equality of these values:&#x0A;  node-&gt;get_current_state().label()&#x0A;    Which is: &quot;unconfigured&quot;&#x0A;  &quot;active&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:613
+Expected equality of these values:
+  node->get_current_state().label()
+    Which is: "unconfigured"
+  "active"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:623&#x0A;Expected equality of these values:&#x0A;  scan_msg.header.frame_id&#x0A;    Which is: &quot;&quot;&#x0A;  &quot;laser&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:623
+Expected equality of these values:
+  scan_msg.header.frame_id
+    Which is: ""
+  "laser"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:624&#x0A;The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * 359) / 1440.0 is 1.5664330036649106, which exceeds 1e-6, where&#x0A;scan_msg.angle_min evaluates to 0,&#x0A;(2 * 3.14159265358979323846 * 359) / 1440.0 evaluates to 1.5664330036649106, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:624
+The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * 359) / 1440.0 is 1.5664330036649106, which exceeds 1e-6, where
+scan_msg.angle_min evaluates to 0,
+(2 * 3.14159265358979323846 * 359) / 1440.0 evaluates to 1.5664330036649106, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:625&#x0A;The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * 360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where&#x0A;scan_msg.angle_max evaluates to 0,&#x0A;(2 * 3.14159265358979323846 * 360) / 1440.0 evaluates to 1.5707963267948966, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:625
+The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * 360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where
+scan_msg.angle_max evaluates to 0,
+(2 * 3.14159265358979323846 * 360) / 1440.0 evaluates to 1.5707963267948966, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:626&#x0A;The difference between scan_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where&#x0A;scan_msg.angle_increment evaluates to 0,&#x0A;1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:626
+The difference between scan_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where
+scan_msg.angle_increment evaluates to 0,
+1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:627&#x0A;The difference between scan_msg.time_increment and 1 * (270.0 / 360.0) * 0.025 / 1080.0 is 1.7361111111111114e-05, which exceeds 1e-6, where&#x0A;scan_msg.time_increment evaluates to 0,&#x0A;1 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 1.7361111111111114e-05, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:627
+The difference between scan_msg.time_increment and 1 * (270.0 / 360.0) * 0.025 / 1080.0 is 1.7361111111111114e-05, which exceeds 1e-6, where
+scan_msg.time_increment evaluates to 0,
+1 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 1.7361111111111114e-05, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:628&#x0A;The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where&#x0A;scan_msg.scan_time evaluates to 0,&#x0A;0.025 evaluates to 0.025000000000000001, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:628
+The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where
+scan_msg.scan_time evaluates to 0,
+0.025 evaluates to 0.025000000000000001, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:629&#x0A;The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where&#x0A;scan_msg.range_min evaluates to 0,&#x0A;0.023 evaluates to 0.023, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:629
+The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where
+scan_msg.range_min evaluates to 0,
+0.023 evaluates to 0.023, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:630&#x0A;The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where&#x0A;scan_msg.range_max evaluates to 0,&#x0A;60.0 evaluates to 60, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:630
+The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where
+scan_msg.range_max evaluates to 0,
+60.0 evaluates to 60, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:631&#x0A;Expected equality of these values:&#x0A;  (int)scan_msg.ranges.size()&#x0A;    Which is: 0&#x0A;  2" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:631
+Expected equality of these values:
+  (int)scan_msg.ranges.size()
+    Which is: 0
+  2]]></failure>
+    </testcase>
+    <testcase name="normal_scan_param_angle_min" status="run" result="completed" time="12.016" timestamp="2023-02-28T10:53:59" classname="UTM_30_LX_EW">
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:684&#x0A;Expected equality of these values:&#x0A;  node-&gt;get_current_state().label()&#x0A;    Which is: &quot;unconfigured&quot;&#x0A;  &quot;inactive&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:684
+Expected equality of these values:
+  node->get_current_state().label()
+    Which is: "unconfigured"
+  "inactive"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:689&#x0A;Expected equality of these values:&#x0A;  node-&gt;get_current_state().label()&#x0A;    Which is: &quot;unconfigured&quot;&#x0A;  &quot;active&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:689
+Expected equality of these values:
+  node->get_current_state().label()
+    Which is: "unconfigured"
+  "active"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:699&#x0A;Expected equality of these values:&#x0A;  scan_msg.header.frame_id&#x0A;    Which is: &quot;&quot;&#x0A;  &quot;laser&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:699
+Expected equality of these values:
+  scan_msg.header.frame_id
+    Which is: ""
+  "laser"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:700&#x0A;The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * 539) / 1440.0 is 2.3518311670623593, which exceeds 1e-6, where&#x0A;scan_msg.angle_min evaluates to 0,&#x0A;(2 * 3.14159265358979323846 * 539) / 1440.0 evaluates to 2.3518311670623593, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:700
+The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * 539) / 1440.0 is 2.3518311670623593, which exceeds 1e-6, where
+scan_msg.angle_min evaluates to 0,
+(2 * 3.14159265358979323846 * 539) / 1440.0 evaluates to 2.3518311670623593, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:701&#x0A;The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * 540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where&#x0A;scan_msg.angle_max evaluates to 0,&#x0A;(2 * 3.14159265358979323846 * 540) / 1440.0 evaluates to 2.3561944901923448, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:701
+The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * 540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where
+scan_msg.angle_max evaluates to 0,
+(2 * 3.14159265358979323846 * 540) / 1440.0 evaluates to 2.3561944901923448, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:702&#x0A;The difference between scan_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where&#x0A;scan_msg.angle_increment evaluates to 0,&#x0A;1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:702
+The difference between scan_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where
+scan_msg.angle_increment evaluates to 0,
+1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:703&#x0A;The difference between scan_msg.time_increment and 1 * (270.0 / 360.0) * 0.025 / 1080.0 is 1.7361111111111114e-05, which exceeds 1e-6, where&#x0A;scan_msg.time_increment evaluates to 0,&#x0A;1 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 1.7361111111111114e-05, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:703
+The difference between scan_msg.time_increment and 1 * (270.0 / 360.0) * 0.025 / 1080.0 is 1.7361111111111114e-05, which exceeds 1e-6, where
+scan_msg.time_increment evaluates to 0,
+1 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 1.7361111111111114e-05, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:704&#x0A;The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where&#x0A;scan_msg.scan_time evaluates to 0,&#x0A;0.025 evaluates to 0.025000000000000001, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:704
+The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where
+scan_msg.scan_time evaluates to 0,
+0.025 evaluates to 0.025000000000000001, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:705&#x0A;The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where&#x0A;scan_msg.range_min evaluates to 0,&#x0A;0.023 evaluates to 0.023, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:705
+The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where
+scan_msg.range_min evaluates to 0,
+0.023 evaluates to 0.023, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:706&#x0A;The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where&#x0A;scan_msg.range_max evaluates to 0,&#x0A;60.0 evaluates to 60, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:706
+The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where
+scan_msg.range_max evaluates to 0,
+60.0 evaluates to 60, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:707&#x0A;Expected equality of these values:&#x0A;  (int)scan_msg.ranges.size()&#x0A;    Which is: 0&#x0A;  2" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:707
+Expected equality of these values:
+  (int)scan_msg.ranges.size()
+    Which is: 0
+  2]]></failure>
+    </testcase>
+    <testcase name="normal_scan_param_angle_max" status="run" result="completed" time="12.017" timestamp="2023-02-28T10:54:12" classname="UTM_30_LX_EW">
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:760&#x0A;Expected equality of these values:&#x0A;  node-&gt;get_current_state().label()&#x0A;    Which is: &quot;unconfigured&quot;&#x0A;  &quot;inactive&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:760
+Expected equality of these values:
+  node->get_current_state().label()
+    Which is: "unconfigured"
+  "inactive"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:765&#x0A;Expected equality of these values:&#x0A;  node-&gt;get_current_state().label()&#x0A;    Which is: &quot;unconfigured&quot;&#x0A;  &quot;active&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:765
+Expected equality of these values:
+  node->get_current_state().label()
+    Which is: "unconfigured"
+  "active"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:775&#x0A;Expected equality of these values:&#x0A;  scan_msg.header.frame_id&#x0A;    Which is: &quot;&quot;&#x0A;  &quot;laser&quot;" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:775
+Expected equality of these values:
+  scan_msg.header.frame_id
+    Which is: ""
+  "laser"]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:776&#x0A;The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * -540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where&#x0A;scan_msg.angle_min evaluates to 0,&#x0A;(2 * 3.14159265358979323846 * -540) / 1440.0 evaluates to -2.3561944901923448, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:776
+The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * -540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where
+scan_msg.angle_min evaluates to 0,
+(2 * 3.14159265358979323846 * -540) / 1440.0 evaluates to -2.3561944901923448, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:777&#x0A;The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * -539) / 1440.0 is 2.3518311670623593, which exceeds 1e-6, where&#x0A;scan_msg.angle_max evaluates to 0,&#x0A;(2 * 3.14159265358979323846 * -539) / 1440.0 evaluates to -2.3518311670623593, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:777
+The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * -539) / 1440.0 is 2.3518311670623593, which exceeds 1e-6, where
+scan_msg.angle_max evaluates to 0,
+(2 * 3.14159265358979323846 * -539) / 1440.0 evaluates to -2.3518311670623593, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:778&#x0A;The difference between scan_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where&#x0A;scan_msg.angle_increment evaluates to 0,&#x0A;1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:778
+The difference between scan_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where
+scan_msg.angle_increment evaluates to 0,
+1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:779&#x0A;The difference between scan_msg.time_increment and 1 * (270.0 / 360.0) * 0.025 / 1080.0 is 1.7361111111111114e-05, which exceeds 1e-6, where&#x0A;scan_msg.time_increment evaluates to 0,&#x0A;1 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 1.7361111111111114e-05, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:779
+The difference between scan_msg.time_increment and 1 * (270.0 / 360.0) * 0.025 / 1080.0 is 1.7361111111111114e-05, which exceeds 1e-6, where
+scan_msg.time_increment evaluates to 0,
+1 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 1.7361111111111114e-05, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:780&#x0A;The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where&#x0A;scan_msg.scan_time evaluates to 0,&#x0A;0.025 evaluates to 0.025000000000000001, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:780
+The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where
+scan_msg.scan_time evaluates to 0,
+0.025 evaluates to 0.025000000000000001, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:781&#x0A;The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where&#x0A;scan_msg.range_min evaluates to 0,&#x0A;0.023 evaluates to 0.023, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:781
+The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where
+scan_msg.range_min evaluates to 0,
+0.023 evaluates to 0.023, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:782&#x0A;The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where&#x0A;scan_msg.range_max evaluates to 0,&#x0A;60.0 evaluates to 60, and&#x0A;1e-6 evaluates to 9.9999999999999995e-07." type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:782
+The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where
+scan_msg.range_max evaluates to 0,
+60.0 evaluates to 60, and
+1e-6 evaluates to 9.9999999999999995e-07.]]></failure>
+      <failure message="/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:783&#x0A;Expected equality of these values:&#x0A;  (int)scan_msg.ranges.size()&#x0A;    Which is: 0&#x0A;  2" type=""><![CDATA[/home/roboclub/dev_ws/src/urg_node2/test/urg_node2_test.cpp:783
+Expected equality of these values:
+  (int)scan_msg.ranges.size()
+    Which is: 0
+  2]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
