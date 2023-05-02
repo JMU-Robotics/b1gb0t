@@ -9,7 +9,11 @@ setup.py
 ../../build/jmu_bigbot/jmu_bigbot.egg-info/top_level.txt
 ../../build/jmu_bigbot/jmu_bigbot.egg-info/zip-safe
 jmu_bigbot/__init__.py
+jmu_bigbot.egg-info/PKG-INFO
+jmu_bigbot.egg-info/SOURCES.txt
+jmu_bigbot.egg-info/dependency_links.txt
+jmu_bigbot.egg-info/entry_points.txt
+jmu_bigbot.egg-info/requires.txt
+jmu_bigbot.egg-info/top_level.txt
+jmu_bigbot.egg-info/zip-safe
 resource/jmu_bigbot
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

@@ -13,7 +13,7 @@ def generate_launch_description():
     rover_launch_file_dir = os.path.join(rover_dir, 'launch')
 
     return LaunchDescription([
-
+        # LIDAR
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([urg_launch_file_dir,
                                            '/urg_node2.launch.py']),

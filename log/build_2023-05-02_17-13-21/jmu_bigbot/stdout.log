@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing jmu_bigbot.egg-info/PKG-INFO
+writing dependency_links to jmu_bigbot.egg-info/dependency_links.txt
+writing entry points to jmu_bigbot.egg-info/entry_points.txt
+writing requirements to jmu_bigbot.egg-info/requires.txt
+writing top-level names to jmu_bigbot.egg-info/top_level.txt
+reading manifest file 'jmu_bigbot.egg-info/SOURCES.txt'
+writing manifest file 'jmu_bigbot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/roboclub/dev_ws/install/jmu_bigbot/lib/python3.10/site-packages/jmu-bigbot.egg-link (link to .)
+
+Installed /home/roboclub/dev_ws/build/jmu_bigbot
+running install_data
